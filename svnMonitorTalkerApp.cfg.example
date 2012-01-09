@@ -11,7 +11,7 @@ pollInterval=2
 
 [talker]
 # URL to the talker room, found in address bar, plus messages.json
-roomUrl=http://yourcompany.talkerapp.com/rooms/2940/messages.json
+roomUrl=http://yourcompany.talkerapp.com/rooms/1212/messages.json
 
 # Format string for chat appearance  of SVN information
 #   %r = revision
