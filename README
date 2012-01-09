@@ -1,3 +1,5 @@
+PREREQUISITE: pysvn installed http://pysvn.tigris.org/project_downloads.html
+
 The application polls an SVN repository for new commits and sends a summary message to the TalkerApp room specified in the config file.  See svnMonitorTalkerApp.cfg.example for more details. 
 
 This python application is a simple bridge between pysvn (a Python SVN extension) and TalkerApp (a cool new IRC-like web-client https://talkerapp.com/).  
