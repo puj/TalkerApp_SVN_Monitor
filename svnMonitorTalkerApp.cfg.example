@@ -1,0 +1,26 @@
+[svn]
+# Replace this with your SVN server repo URL
+server=https://svn.server.com/svn/repo
+
+# Username for the SVN
+user=my_read_only_user
+pass=password123;)
+
+# In seconds
+pollInterval=2
+
+[talker]
+# URL to the talker room, found in address bar, plus messages.json
+roomUrl=http://frojd.talkerapp.com/rooms/2940/messages.json
+
+# Format string for chat appearance  of SVN information
+#   %r = revision
+#   %a = author
+#   %m = message 
+#   example : '%r : %a committed -- %m'
+#   result  : '1209 : bobdole comitted -- Updated taxes with exponential growth'
+formatString='%r : %a committed -- %m'
+
+# Your HEX talker token found in the settings page of a user.  
+#   The messages will originate from the user which token you have used.
+talkerToken=1234123123123ABCABCABCABCABCABCABC123123
